@@ -8,7 +8,7 @@
 .logo {
   display: flex;
   justify-content: space-between;
-  margin: 24px;
+  margin: 54px 24px 24px 24px;
 }
 
 .logo a {
@@ -57,6 +57,12 @@
   margin: 24px 0 24px 0;
 }
 
+.header-Page ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
 .header-Page p {
   margin: 24px 0 24px 0;
   font-family: 'Poppins', sans-serif;
@@ -72,9 +78,4 @@
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-}
-
-.socialMedia {
-  width: 100%;
-  margin: 5px 0 0 -5px;
 }
