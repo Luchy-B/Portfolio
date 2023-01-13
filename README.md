@@ -4,7 +4,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Oluchi</b></h3>
+  <h3><b>Portfolio</b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio Oluchi] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-**Portfolio Oluchi** is my portfolio project. It contains a brief history about me and my profession as a web developer. It also contains information about my expereinces and languages I can handle should opportunity for employment presents itself.
+**Portfolio** is my portfolio project. It contains a brief history about me and my profession as a web developer. It also contains information about my expereinces and languages I can handle should opportunity for employment presents itself.
 
 ## 🛠 Built With html and css<a name="built-with"></a>
 
