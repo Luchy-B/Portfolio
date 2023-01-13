@@ -22,17 +22,18 @@
   color: #6070ff;
   line-height: 29px;
 }
+
 .Hamburger {
-    border: none;
+  border: none;
   background-color: white;
   border-color: white;
   cursor: pointer;
   width: px;
-  }
+}
 
-  .Hamburger img{
-    width: 18px;
-  }
+.Hamburger img {
+  width: 18px;
+}
 
 .header-Page {
   background-size: 45%;
