@@ -251,27 +251,30 @@
       </ul>
     </div>
   </section>
-  <section class="contact-me">
-    <h3>Contact me</h3>
-    <p>
-      If you have an application you are interested in developing, a feature
-      that you need built or a project that needs coding. I’d love to help
-      with it
-    </p>
-    <form action="https://formspree.io/f/mdojyaar" method="POST">
-      <label for="name">
-        <input type="text" id="name" name="name" required minlength="3" maxlength="30" placeholder="Full name" />
-      </label>
-      <label for="email">
-        <input type="email" id="email" name="email" required placeholder="Enter the email" />
-      </label>
-      <label for="message">
-        <textarea id="message" cols="30" rows="10" required maxlength="500" name="message"
-          placeholder="Write your message here"></textarea>
-      </label>
-      <button type="submit">Get in touch</button>
-    </form>
+
+  <!-- Contact Form -->
+  <section class="contact-Form">
+        <div class="contact-Me">
+            <h1>Contact me</h1>
+            <p>
+                If you have an application you are interested in developing, a feature
+                that you need built or a project that needs coding. I'd love to help
+                with it
+            </p>
+        </div>
+        <form action="https://formspree.io/f/mdojyaar" method="POST" class="input-Form">
+            <label for="name">
+                <input type="text" id="name" name="name" minlength="3" maxlength="30" placeholder="Full name" required/>
+            </label>
+            <label for="email">
+                <input type="email" id="email" name="email" placeholder="Enter the email" required/>
+            </label>
+            <label for="message">
+                <textarea id="message" cols="43" rows="10" required maxlength="500" minlength="10" name="message"placeholder="Write your message here"></textarea>
+            </label>                 
+                <button type="submit" class="button">Get in touch</button>
+        </form>        
+            <img src="images/end-Line.png" alt="Black-Line" class="end-Line">
   </section>
 </body>
-
 </html>
