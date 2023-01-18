@@ -351,6 +351,7 @@ body {
 .input-Form textarea {
   border-radius: 8px;
   padding: 20px;
+  border: none;
 }
 
 .input-Form input {
