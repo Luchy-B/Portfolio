@@ -151,7 +151,7 @@ body {
   border-radius: 10px;
   background-color: #ebebff;
   padding: 12px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
 }
 
@@ -293,4 +293,74 @@ body {
 
 .languages {
   padding: 24px;
+}
+
+/* Contact-Form */
+
+.contact-Form {
+  margin-top: 84px;
+  padding-top: 94px;
+  background-image: url(images/contact-FormBg.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;  
+  font-family: 'Poppins', sans-serif;
+  background-color: #6070FF;
+  color: #FFFFFF;
+  border-top-left-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.contact-Me h1 {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  line-height: 52px; 
+  font-weight: 750;
+  font-style: bold;
+}
+
+.contact-Me p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 28px; 
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 24px;
+}
+
+.input-Form{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  gap: 24px;
+  padding-top: 54px;
+  border: 1px solid #CFD8DC; 
+}
+
+.input-Form input {
+  border-radius: 8px;
+  width: 327px;
+  border: 1px solid #CFD8DC;
+  background-color: #FFFFFF;
+  padding: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.button {
+  color: #6070FF;
+  font-size: 17px;
+  font-weight: 500;
+ width: 5px;
+}
+
+.end-Line{
+  padding: 54px 0px 24px 0px;
 }
