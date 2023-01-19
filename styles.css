@@ -355,9 +355,12 @@ body {
 }
 
 .input-Form textarea {
+  font-family: 'Poppins', sans-serif;
   border-radius: 8px;
   border: none;
   padding: 12px;
+  width: 327px;
+  height: 170px;
 }
 
 .input-Form input {
