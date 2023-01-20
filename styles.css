@@ -129,7 +129,7 @@ body {
   margin-right: 24px;
 }
 
-.img-Div img{
+.img-Div img {
   width: 100%;
 }
 
@@ -139,8 +139,6 @@ body {
   align-items: flex-start;
   width: 80%;
 }
-
-
 
 .content ul {
   line-height: 5px;
@@ -420,16 +418,15 @@ body {
 
 .navigation ul {
   display: none;
-
 }
 
 @media screen and (min-width: 768px) {
- 
-  .Hamburger, .end-Line {
-      display: none;
+  .Hamburger,
+  .end-Line {
+    display: none;
   }
-  
-  .navigation a{
+
+  .navigation a {
     color: #344563;
     font-size: 15px;
     font-weight: 500;
@@ -438,117 +435,114 @@ body {
     line-height: 20px;
   }
 
-  .logo{
+  .logo {
     padding-left: 140px;
     padding-right: 140px;
     align-items: baseline;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: #fff;
     position: fixed;
     width: 100%;
   }
 
-  .navigation ul{
-      display: flex;
-      flex-direction: row;
-      text-decoration: none;
-    }
+  .navigation ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  }
 
-    .navigation li{
-      list-style: none;      
-    }
- 
+  .navigation li {
+    list-style: none;
+  }
+
   .header-Bg {
-      display: flex;
-      background-image: url(images/header-bgDsk.png);
-      background-position: top left;
-      background-repeat: no-repeat;
-      width: 100%;
-      background-size: contain;
-      background-position-y: 100px;
-      background-position-x: 10px;
-      overflow: hidden;
-      padding: 50px 260px 50px 260px;      
-    }
-  
-    .card{
-      flex-direction: row;
-      padding: 22px;
-      gap: 54px;
-      width: 100%;
-      cursor: pointer;      
-    }
+    display: flex;
+    background-image: url(images/header-bgDsk.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position-y: 100px;
+    background-position-x: 10px;
+    overflow: hidden;
+    padding: 50px 260px 50px 260px;
+  }
 
-    .card:hover {
-      border: 2px solid #A7AEFF;
-      box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.082);
-    }
+  .card {
+    flex-direction: row;
+    padding: 22px;
+    gap: 54px;
+    width: 100%;
+    cursor: pointer;
+  }
 
-    #portfolio{
-      padding: 80px 80px 0px 80px;
-      display: flex;
-      flex-direction: column;
-    }
+  .card:hover {
+    border: 2px solid #a7aeff;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.082);
+  }
 
-    #portfolio .card:nth-child(even) {
-      flex-direction: row-reverse;
-      justify-content: flex-end;
-    }   
+  #portfolio {
+    padding: 80px 80px 0 80px;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .aboutMe-Container {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      padding: 0px 80px 0px 80px;
-      width: 100%;
-    }
+  #portfolio .card:nth-child(even) {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
 
-    .langList {
-      display: flex;
-      flex-direction: row;
-      gap: 24px;
-      
-    }
+  .aboutMe-Container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 80px 0 80px;
+    width: 100%;
+  }
 
-    .lang{
-      border-radius: 7px;
-      flex-direction: column;
-      padding-right: 30px;
-      align-items: flex-start;      
-    }
+  .langList {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
 
-    .skills {
-      padding-right: 8px;
-      width: 100%;
-      margin-bottom: 18px;
-      list-style-type: none;
-      width: 100%;
-    }
+  .lang {
+    border-radius: 7px;
+    flex-direction: column;
+    padding-right: 30px;
+    align-items: flex-start;
+  }
 
-    .contact-Me p{
-      padding: 0px 184px 0px 184px;
-    }
+  .skills {
+    padding-right: 8px;
+    width: 100%;
+    margin-bottom: 18px;
+    list-style-type: none;
+  }
 
-    .input-Form textarea {
-      border-radius: 0px;
-    }
-    
-    .input-Form input {
-      border-radius: 0px;
-    }
+  .contact-Me p {
+    padding: 0 184px 0 184px;
+  }
 
-    .contact-Container {
-      background-image: url(images/contact-formBackground.png);
-      background-position: top left;
-      background-repeat: no-repeat;
-      background-size: contain;
-      overflow: hidden;
-      width: 100%;
-      background-position-y: 80px;
-    }
-  
-  .btn-Form
-    {
-      justify-content: center;
-    }   
- } 
+  .input-Form textarea {
+    border-radius: 0;
+  }
+
+  .input-Form input {
+    border-radius: 0;
+  }
+
+  .contact-Container {
+    background-image: url(images/contact-formBackground.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    width: 100%;
+    background-position-y: 80px;
+  }
+
+  .btn-Form {
+    justify-content: center;
+  }
+}
