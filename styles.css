@@ -57,6 +57,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   overflow: hidden;
+  justify-content: center;
 }
 
 .header-Page h1 {
@@ -66,6 +67,7 @@ body {
   color: #172b4d;
   line-height: 52px;
   margin: 24px 0 24px 0;
+  padding-right: 40px;
 }
 
 .header-Page ul {
@@ -108,11 +110,12 @@ body {
   border-radius: 16px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .card h2 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 750;
+  font-weight: 800;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -126,18 +129,14 @@ body {
   margin-right: 24px;
 }
 
+.img-Div img {
+  width: 100%;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-
-.content-List {
-  display: flex;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  color: #344563;
 }
 
 .content ul {
@@ -163,13 +162,26 @@ body {
   color: #344563;
 }
 
+.para {
+  letter-spacing: 0.5px;
+}
+
+.content-List {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #344563;
+}
+
 .content-List p {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 54px;
   color: #7a869a;
-  padding-right: 17px;
+  padding-right: 6px;
 }
 
 .content-List .canopy {
@@ -178,7 +190,7 @@ body {
 }
 
 .content img {
-  padding-right: 17px;
+  padding-right: 9px;
 }
 
 .btn-1 {
@@ -229,6 +241,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  letter-spacing: 0.5px;
 }
 
 .aboutMeContent h4 {
@@ -349,7 +362,7 @@ body {
 
 .input-Form label {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding-top: 20px;
 }
@@ -383,7 +396,7 @@ body {
   padding: 8px;
   border: 1px solid #6070ff;
   border-radius: 6px;
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .button:hover {
@@ -400,4 +413,173 @@ body {
 
 .end-Line {
   padding-top: 10px;
+}
+
+.navigation ul {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .Hamburger,
+  .end-Line {
+    display: none;
+  }
+
+  .navigation a {
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+    line-height: 20px;
+  }
+
+  .logo {
+    padding-left: 140px;
+    padding-right: 140px;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  }
+
+  .navigation li {
+    list-style: none;
+  }
+
+  .header-Bg {
+    display: flex;
+    background-image: url(images/header-bgDsk.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position-y: 100px;
+    background-position-x: 10px;
+    overflow: hidden;
+  }
+
+  .header-Page {
+    display: flex;
+    flex-direction: column;
+    padding: 250px 260px 94px 260px;
+  }
+
+  .header-Page p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .header-Page h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .card {
+    flex-direction: row;
+    padding: 24px;
+    gap: 54px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    border: 2px solid #a7aeff;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.082);
+  }
+
+  #portfolio {
+    padding: 100px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #portfolio .card:nth-child(even) {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  #portfolio .card:nth-child(odd) {
+    align-items: flex-start;
+  }
+
+  .aboutMe-Container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 80px 0 80px;
+    width: 100%;
+  }
+
+  .aboutMeContent {
+    width: 40%;
+  }
+
+  .languages {
+    width: 60%;
+  }
+
+  .langList {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .lang {
+    border-radius: 7px;
+    flex-direction: column;
+    padding-right: 30px;
+    align-items: flex-start;
+  }
+
+  .skills {
+    padding-right: 80px;
+    width: 100%;
+    margin-bottom: 18px;
+    list-style-type: none;
+  }
+
+  .contact-Me p {
+    width: 40%;
+  }
+
+  .input-Form textarea {
+    border-radius: 0;
+  }
+
+  .input-Form input {
+    border-radius: 0;
+  }
+
+  .contact-Container {
+    background-image: url(images/contact-formBackground.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    width: 100%;
+    background-position-y: 80px;
+  }
+
+  .btn-Form {
+    justify-content: center;
+  }
+
+  .img-Div {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content {
+    width: 50%;
+  }
 }
