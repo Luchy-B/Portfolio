@@ -583,3 +583,18 @@ body {
     width: 50%;
   }
 }
+
+.logo h3 {
+  animation-delay: 2s;
+  animation: rotation 1s ease-in-out;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
