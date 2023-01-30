@@ -34,7 +34,7 @@ body {
   background-color: white;
   border-color: white;
   cursor: pointer;
-  width: px;
+  width: 100%;
 }
 
 .Hamburger img {
@@ -49,7 +49,8 @@ body {
 
 .header-Page {
   background-size: 45%;
-  margin: 64px 24px 24px 24px;
+  margin: 12px 24px 24px 24px;
+  padding-top: 5rem;
 }
 
 .header-Bg {
@@ -57,9 +58,11 @@ body {
   background-image: url(images/header-bg.png);
   background-position: top left;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   overflow: hidden;
   justify-content: center;
+  width: 100%;
+  /* height: 100vh; */
 }
 
 .header-Page h1 {
@@ -425,12 +428,58 @@ body {
   display: none;
 }
 
+
+
+@media screen and (max-width: 768px){
+  #cross{
+    list-style: none;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px; 
+  background-color: #6070FF;
+  opacity: 90%;
+  height: 100vh; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 64px 40px 0px 40px;
+  }
+  
+  #cross li{
+    padding-bottom: 24px;
+  }
+
+  #cross a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+  }
+  
+  .closeIcon{
+    float: right;
+    font-size: 32px;
+    font-weight: 10;
+    /* padding-left: 280px; */
+  }
+  
+  .navigation{
+   /* position: fixed; */
+    width: 100%;    
+    top: 0%;
+    left: 0%;
+  }
+}
+
+
 @media screen and (min-width: 768px) {
   .Hamburger,
   .end-Line {
     display: none;
   }
-
+#times{
+  display: none;
+}
   .navigation a {
     color: #344563;
     font-size: 15px;
@@ -467,7 +516,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     background-size: contain;
-    background-position-y: 100px;
+    background-position-y: 95px;
     background-position-x: 10px;
     overflow: hidden;
   }
@@ -475,15 +524,20 @@ body {
   .header-Page {
     display: flex;
     flex-direction: column;
-    padding: 250px 260px 94px 260px;
+    justify-content: flex-start;
+    width: 50%;
+  
+    /* padding: 250px 260px 94px 260px; */
   }
 
   .header-Page p {
     font-size: 20px;
     line-height: 28px;
+    margin-top: -12px;
   }
 
   .header-Page h1 {
+    padding-top: 120px;
     font-size: 48px;
     line-height: 60px;
   }
