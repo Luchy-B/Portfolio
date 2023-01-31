@@ -37,6 +37,9 @@
 **Portfolio** is my portfolio project. It contains a brief history about me and my profession as a web developer. It also contains information about my expereinces and languages I can handle should opportunity for employment presents itself.
 
 ## 🛠 Built With html and css<a name="built-with"></a>
+HTML
+CSS
+Javascript
 
 ### Tech Stack <a name="tech-stack"></a>
 
