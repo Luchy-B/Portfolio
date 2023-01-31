@@ -433,14 +433,16 @@ body {
     font-size: 32px;
     font-weight: 600;
     line-height: 44px;
-    background-color: #6070ff;
-    opacity: 90%;
+    background-color: rgba(56, 74, 235, 0.8);
+    backdrop-filter: blur(6px);
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 64px 40px 0 40px;
+    display: flex;
+    flex-direction: column;
   }
 
   #cross li {
@@ -477,6 +479,10 @@ body {
 
   #times {
     display: none;
+  }
+
+  .navigation #cross {
+    display: flex;
   }
 
   .navigation a {
