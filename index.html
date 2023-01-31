@@ -15,16 +15,19 @@
       <a href="#">
         <h3>Blessing Oluchi</h3>
       </a>
-      <nav class="Hamburger">
-        <img src="images/Hamburger2.png" alt="Hamburger" />
-      </nav>
-      <nav class="navigation">
-        <ul>
-            <li><a href="#">Portfolio</li></a>
-            <li><a href="#">About</li></a>
-            <li><a href="#">Contact</li></a>
-        </ul>
-    </nav>
+      <div>
+        <nav class="Hamburger" >
+          <img src="images/Hamburger2.png" alt="Hamburger" id="openHam"/>
+        </nav>
+        <nav class="navigation">
+          <ul id="cross">
+              <li id="times"><a href="#"><span class="closeIcon">&times;</span></a></li>
+              <li onclick="hide()"><a href="#portfolio">Portfolio</li></a>
+              <li onclick="hide()"><a href="#aboutPage">About</li></a>
+              <li onclick="hide()"><a href="#contactPage">Contact</li></a>
+          </ul>
+        </nav>
+      </div>
     </div>
     <section class="header-Bg">
       <div class="header-Page">
@@ -182,7 +185,7 @@
   </section>
 
   <!-- About Me Section -->
-  <section class="aboutMe">
+  <section class="aboutMe" id="aboutPage">
     <div class="aboutMe-Container">
         <div class="aboutMeContent">
             <h2>
@@ -265,7 +268,7 @@
     </div>
 
       <!-- Contact Form -->
-        <section class="contact-Container" >
+        <section class="contact-Container" id="contactPage">
             <div class="contact-Form">
                 <div class="contact-Me">
                     <h2>Contact me</h2>
@@ -293,7 +296,11 @@
             </div>
         </section>
     </section>
-    <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img"></svg>
 
+    <script src="scripts.js">
+  
+    </script>
 </body>
+
+
 </html>
