@@ -425,6 +425,141 @@ body {
   display: none;
 }
 
+.alert-Msg{
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-top: 12px;
+}
+/* Modal Design */
+#modalContainer {
+background-color: #ffffff;
+font-family: 'Poppins', sans-serif;
+list-style: none;
+margin: 50px 16px 50px 16px;
+border-radius: 10px;
+}
+
+#modalContainer a {
+  text-decoration: none;
+}
+
+.modalContent{
+  padding: 16px;
+}
+
+/* .modalHeader {
+  padding: 24px;
+} */
+
+.modalNav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  list-style: none;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+
+.modalNavLi a{
+  font-size: 35px;
+  text-decoration: none;
+  color: #67798E;
+  
+}
+
+.modalHeader h3 {
+  font-size: 32px;
+  font-weight: 700;
+ 
+}
+.canopy{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.canopy p {
+  font-size: 13px;
+  font-weight: 600;
+
+}
+
+.canopy ul {
+  font-size: 13px;
+  font-weight: 600;
+  color: #7A869A;
+  gap: 30px;
+  display: flex;
+  
+}
+
+.modalImg {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+.modalFooter p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.modalFooter ul {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  color: #6070ff;
+  margin: 24px 24px 24px 0;
+}
+
+.modalFooter li {
+  border-radius: 10px;
+  background-color: #ebebff;
+  padding: 6px 12px 6px 12px;
+  font-size: 12px;
+}
+
+hr {
+  
+  margin-bottom: 24px;
+}
+
+.modalFooter button{
+  padding: 10px 15px 10px 15px;
+  margin: 15px;
+}
+
+.seeBtn{
+  padding: 200px;
+  
+}
+
+.seeBtn1, .seeBtn2 {
+  border: 1px solid #6070ff;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 15px;
+  color: #396DF2;
+  background-color: #ffffff;
+}
+
+.seeBtn2{
+  float: right;
+}
+
+.seeBtn1:hover {
+  color: #396df2;
+  background: #ebebff;
+  border: 2px solid #396df2;
+}
+
+.seeBtn2:hover {
+  color: #396df2;
+  background: #ebebff;
+  border: 2px solid #396df2;
+}
+
 @media screen and (max-width: 768px) {
   #cross {
     list-style: none;
@@ -455,8 +590,8 @@ body {
 
   .closeIcon {
     float: right;
-    font-size: 32px;
-    font-weight: 10;
+    font-size: 52px;
+    font-weight: 5;
   }
 
   .navigation {
