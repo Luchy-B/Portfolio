@@ -94,37 +94,26 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
- install npm, node
-
-
+- install npm, node
+- Install code editor
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-git clone git@github.com:Luchy-B/Hello-Microverse.git
-
-
-
-### Install
-
-Install this project with:
-
-  cd my-project
-  gem install
-
+git clone git@github.com:Luchy-B/Portfolio.git
 
 ### Usage
 
 To run the project, execute the following command:
 
-  live, rails server
+  live server
 
 ### Run tests
 
 To run tests, run the following command:
 
-  bin/rails test test/models/article_test.rb
+  - Open a Live Serve on your Code Editor to view this project.
 
 
 ## 👥 Authors <a name="authors"></a>
