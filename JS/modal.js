@@ -1,3 +1,14 @@
+// Modal Callup
+const modal = document.querySelector('#modalContainers');
+const ModalCloseBtn = document.querySelector('#close-btn');
+const modalTitles = document.querySelector('#modalTitle');
+const modalRoles = document.querySelector('#canopy');
+const cardImg = document.querySelector('#modal-Img');
+const longDescpt = document.querySelector('#modalDes');
+const cardLang = document.querySelector('#modalLang');
+const modalLive = document.querySelector('#seeLive');
+const modalSource = document.querySelector('#seeSource');
+
 // storing card section for the desktop part.
 const cards = [
     {
@@ -50,20 +61,19 @@ const cards = [
     }
 ];
   
- 
-  // Class selections
+
   const portfolio = document.querySelector('#portfolio');
   
-  // looping through the cards of the desktop to add cards dynamically
+  // Adding cards dynamically
   for (let i = 0; i < cards.length; i += 1) {
-    let lang = '';
+    let langu = '';
     cards[i].languages.forEach((card) => {
-      lang = `${lang}<li class="${card}">${card}</li>`;
+      langu = `${langu}<li class="${card}">${card}</li>`;
     });
   
-    let tech = '';
-    cards[i].roles.forEach((techn) => {
-      tech = `${tech}<li class="${techn}">${techn}</li>`;
+    let role = '';
+    cards[i].roles.forEach((rol) => {
+        role = `${role}<li class="${rol}">${rol}</li>`;
     });
   
     portfolio.innerHTML += `
@@ -77,14 +87,14 @@ const cards = [
         ${cards[i].mTitle}
         </h2>
         <ul class="canopy">
-           ${tech}
+           ${role}
         </ul>
         
         <p class="para">
         ${cards[i].shortDes}
         </p>
         <ul class="langUl">
-        ${lang}
+        ${langu}
         </ul>
         <input type="button" value="See Project" class="btn-1 card-btn card-btn-${i}" />
       </div>
@@ -92,46 +102,32 @@ const cards = [
   `;
   }
   
-  // popup selections
-  const cardTitle = document.querySelector('#modalTitle');
-  const cardInfo = document.querySelector('#canopy');
-  const cardImg = document.querySelector('#modal-Img');
-  const cardText = document.querySelector('#modalDes');
-  const cardLang = document.querySelector('#modalLang');
-  const ModalCloseBtn = document.querySelector('#close-btn');
-  const modal = document.querySelector('#modalContainers');
-  const modalLive = document.querySelector('#seeLive');
-  const modalSource = document.querySelector('#seeSource');
-  
-  
-  
-  
-  // popup for desktop
+  // Code for popup 
   for (let i = 0; i < cards.length; i += 1) {
     document.querySelector(`.card-btn-${i}`).addEventListener('click', () => {
       modal.style.display = 'block';
   
-      let lang = '';
+      let langu = '';
       cards[i].languages.forEach((cards) => {
-        lang = `${lang}<li class="${cards}">${cards}</li>`;
+        langu = `${langu}<li class="${cards}">${cards}</li>`;
       });
   
-      let tech = '';
-      cards[i].roles.forEach((techn) => {
-        tech = `${tech}<li class="${techn}">${techn}</li>`;
+      let role = '';
+      cards[i].roles.forEach((rol) => {
+        role = `${role}<li class="${rol}">${rol}</li>`;
       });
   
-      cardTitle.innerHTML = `${cards[i].mTitle}`;
-      cardInfo.innerHTML = `${tech}`;
-      cardLang.innerHTML = `${lang}`;
-      cardText.innerHTML = `${cards[i].longDes}`;
+      modalTitles.innerHTML = `${cards[i].mTitle}`;
+      modalRoles.innerHTML = `${role}`;
+      cardLang.innerHTML = `${langu}`;
+      longDescpt.innerHTML = `${cards[i].longDes}`;
       cardImg.innerHTML = `<img src="${cards[i].image}" alt="Card Image" />`;     
       modalLive.setAttribute('href', cards[i].live);
       modalSource.setAttribute('href', cards[i].source);
     });
   }
   
-  // close button event listener
+  // Modal Close
   ModalCloseBtn.addEventListener('click', () => {
     modal.style.display = 'none';
   });

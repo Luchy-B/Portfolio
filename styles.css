@@ -413,17 +413,18 @@ body {
 
 /* Modal Design */
 #modalContainers {
-background-color: rgb(96, 112, 255, 0.6);
+  display: flex;
+  align-content: center;
+background-color: rgba(100, 104, 140, 0.499);
 font-family: 'Poppins', sans-serif;
 list-style: none;
-/* margin: 50px 16px 50px 16px; */
-border-radius: 10px;
-width: 100vw;
-height: 100vh;
+height: 100%;
 position: fixed;
 top: 0;
 left: 0;
 backdrop-filter: blur(6px);
+padding: 40px 14px 14px 14px;
+margin-bottom: 50rem;
 }
 
 #modalContainer a {
@@ -447,14 +448,14 @@ backdrop-filter: blur(6px);
 }
 
 .modalHeader {
-  padding: 10px 24px; 
+  padding: 20px 24px 4px 20px;
   background-color: #fff;
-  width: 90%;
-  height: 96vh;
+  width: 100%;
   margin: 0 auto;
-  position: relative;
-  top: 2%;
+  top: 0;
+  right: 0;
   border-radius: 1rem;
+  overflow: hidden;
 }
 
 #close-btn {
@@ -482,9 +483,7 @@ backdrop-filter: blur(6px);
   font-weight: 600;
   color: #7A869A;
   font-family: 'Poppins', sans-serif;
-  /* padding-top: 0.3rem; */
   padding-bottom: 0.5rem;
-  /* list-style-type: disc; */
 }
 
 .canopy li:nth-child(1) {
@@ -495,18 +494,21 @@ backdrop-filter: blur(6px);
 }
 
 .modalImg {
- 
-  height: 50%;
-  padding-left: 37px;
+  padding-top: 10px;
 }
 
 .modalImg img {
-  transform: scaleX(1.2);
-  width: 70vw;
+  width: 100%;
+}
+
+.modalFooter{
+padding-bottom: 2px;
+height: fit-content;
+overflow: hidden;
 }
 
 .modalFooter p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   padding-top: 0.5rem;
@@ -535,18 +537,15 @@ hr {
 .modal-button {
   display: flex;
 justify-content: space-evenly;
-width: 80%;
+width: 100%;
 gap: 1rem;
+position: relative;
 }
 
 .modalFooter button{
   padding: 10px 15px 10px 15px;
   
 }
-
-/* .seeBtn{
-  padding: 200px;
-} */
 
 .seeBtn1, 
 .seeBtn2 {
@@ -793,13 +792,16 @@ gap: 1rem;
   }
 
   /* Modal */
-  .modalContainer{
-    /* overflow-y: scroll; */
+  #modalContainers{
+    padding-left: 94px;
+    padding-right: 94px;
+    padding-top: 44px;
   }
 
 .modalHeader {
   height: 90vh;
   top: 5%;
+  padding: 24px;
 }
 
   .canopy .canopyLi1 {
@@ -811,9 +813,9 @@ gap: 1rem;
 
   .modalImg {
     width: 100%;
-    height: 60vh;
-    padding-left: 23.5rem;
-    /* padding: 20px; */
+    height: 50vh;
+    padding-left: 19rem;
+    padding-top: 2rem;
   }
 
   .modalImg img {
