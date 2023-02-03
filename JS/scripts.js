@@ -28,6 +28,5 @@ contactForm.addEventListener('submit', (event) => {
     alertMsg.innerHTML = 'Email address should all be lower case';
     event.preventDefault();
   }
-
 });
 
