@@ -457,7 +457,6 @@ backdrop-filter: blur(6px);
 .modalHeader h3 {
   font-size: 32px;
   font-weight: 700;
- 
 }
 
 #canopy{
@@ -765,8 +764,6 @@ hr {
   .modalFooter{
     display: flex;
     flex-direction: row;
-    
-    /* align-items: flex-end; */
   }
 
   /* Modal */
