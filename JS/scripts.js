@@ -29,3 +29,4 @@ contactForm.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
