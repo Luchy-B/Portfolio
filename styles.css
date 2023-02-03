@@ -141,6 +141,10 @@ body {
   padding-right: 9px;
 }
 
+.modalImg img {
+  width: 100%;
+}
+
 .img-Div:hover img {
   transform: scale(1.1);
 }
@@ -159,7 +163,6 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 15px;
-  line-height: 3px;
 }
 
 .langUl li {
@@ -400,14 +403,15 @@ body {
   padding-top: 10px;
 }
 
-.navigation ul, #modalContainers {
+.navigation ul,
+#modalContainers {
   display: none;
 }
 
-.alert-Msg{
+.alert-Msg {
   font-size: 12px;
   font-weight: 600;
-  color: #ffffff;
+  color: #fff;
   padding-top: 12px;
 }
 
@@ -415,16 +419,22 @@ body {
 #modalContainers {
   display: flex;
   align-content: center;
-background-color: rgba(100, 104, 140, 0.499);
-font-family: 'Poppins', sans-serif;
-list-style: none;
-height: 100%;
-position: fixed;
-top: 0;
-left: 0;
-backdrop-filter: blur(6px);
-padding: 40px 14px 14px 14px;
-margin-bottom: 50rem;
+  background-color: rgba(100, 104, 140, 0.499);
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(6px);
+  padding: 40px 14px 14px 14px;
+  margin-bottom: 50rem;
+}
+
+.modalNavLi a {
+  font-size: 35px;
+  text-decoration: none;
+  color: #67798e;
 }
 
 #modalContainer a {
@@ -438,13 +448,6 @@ margin-bottom: 50rem;
   list-style: none;
   justify-content: space-between;
   padding-bottom: 12px;
-}
-
-.modalNavLi a{
-  font-size: 35px;
-  text-decoration: none;
-  color: #67798E;
-  
 }
 
 .modalHeader {
@@ -471,19 +474,26 @@ margin-bottom: 50rem;
   font-weight: 700;
 }
 
-#canopy{
- gap: 30px;
+#canopy {
+  gap: 30px;
 }
 
-.canopy{
+.canopy {
   display: flex;
   flex-direction: row;
   gap: 3px;
   font-size: 13px;
   font-weight: 600;
-  color: #7A869A;
+  color: #7a869a;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 0.5rem;
+}
+
+.modalFooter li {
+  border-radius: 10px;
+  background-color: #ebebff;
+  padding: 6px 12px 6px 12px;
+  font-size: 12px;
 }
 
 .canopy li:nth-child(1) {
@@ -497,14 +507,9 @@ margin-bottom: 50rem;
   padding-top: 10px;
 }
 
-.modalImg img {
-  width: 100%;
-}
-
-.modalFooter{
-padding-bottom: 2px;
-height: fit-content;
-overflow: hidden;
+.modalFooter {
+  padding-bottom: 2px;
+  overflow: hidden;
 }
 
 .modalFooter p {
@@ -523,42 +528,34 @@ overflow: hidden;
   margin: 10px 24px 15px 0;
 }
 
-.modalFooter li {
-  border-radius: 10px;
-  background-color: #ebebff;
-  padding: 6px 12px 6px 12px;
-  font-size: 12px;
-}
-
 hr {
   margin-bottom: 10px;
 }
 
 .modal-button {
   display: flex;
-justify-content: space-evenly;
-width: 100%;
-gap: 1rem;
-position: relative;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 1rem;
+  position: relative;
 }
 
-.modalFooter button{
+.modalFooter button {
   padding: 10px 15px 10px 15px;
-  
 }
 
-.seeBtn1, 
+.seeBtn1,
 .seeBtn2 {
   border: 1px solid #6070ff;
   border-radius: 10px;
   padding: 15px;
   font-size: 15px;
-  color: #396DF2;
-  background-color: #ffffff;
+  color: #396df2;
+  background-color: #fff;
   width: 100%;
 }
 
-.seeBtn2{
+.seeBtn2 {
   float: right;
 }
 
@@ -617,7 +614,9 @@ position: relative;
 
 @media screen and (min-width: 768px) {
   .Hamburger,
-  .end-Line, hr, #modalContainers {
+  .end-Line,
+  hr,
+  #modalContainers {
     display: none;
   }
 
@@ -786,23 +785,23 @@ position: relative;
     padding: 0;
   }
 
-  .modalFooter{
+  .modalFooter {
     display: flex;
     flex-direction: row;
   }
 
   /* Modal */
-  #modalContainers{
+  #modalContainers {
     padding-left: 94px;
     padding-right: 94px;
     padding-top: 44px;
   }
 
-.modalHeader {
-  height: 90vh;
-  top: 5%;
-  padding: 24px;
-}
+  .modalHeader {
+    height: 90vh;
+    top: 5%;
+    padding: 24px;
+  }
 
   .canopy .canopyLi1 {
     font-size: 16px;
@@ -827,21 +826,16 @@ position: relative;
     width: 70%;
   }
 
-  .modalFooter {
-    display: flex;
-  }
-
   .modalFooter p {
     width: 70%;
   }
 
-.modal-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 30%;
-}  
-
+  .modal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+  }
 }
 
 @keyframes rotation {
