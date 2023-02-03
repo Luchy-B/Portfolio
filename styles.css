@@ -151,14 +151,18 @@ body {
   align-items: flex-start;
 }
 
-.content ul {
+.langUl {
   line-height: 5px;
   list-style-type: none;
   color: #6070ff;
   margin: 24px 24px 24px 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 3px;
 }
 
-.content ul li {
+.langUl li {
   border-radius: 10px;
   background-color: #ebebff;
   padding: 12px;
@@ -166,39 +170,14 @@ body {
   font-size: 12px;
 }
 
-.content p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-}
-
 .para {
   letter-spacing: 0.5px;
-}
-
-.content-List {
-  display: flex;
-  flex-direction: row;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 1rem;
   color: #344563;
-}
-
-.content-List p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 54px;
-  color: #7a869a;
-  padding-right: 6px;
-}
-
-.content-List .canopy {
-  color: #344563;
-  font-weight: 600;
 }
 
 .btn-1 {
@@ -421,7 +400,7 @@ body {
   padding-top: 10px;
 }
 
-.navigation ul {
+.navigation ul, #modalContainers {
   display: none;
 }
 
@@ -431,31 +410,30 @@ body {
   color: #ffffff;
   padding-top: 12px;
 }
+
 /* Modal Design */
-#modalContainer {
-background-color: #ffffff;
+#modalContainers {
+background-color: rgb(96, 112, 255, 0.6);
 font-family: 'Poppins', sans-serif;
 list-style: none;
-margin: 50px 16px 50px 16px;
+/* margin: 50px 16px 50px 16px; */
 border-radius: 10px;
+width: 100vw;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+backdrop-filter: blur(6px);
 }
 
 #modalContainer a {
   text-decoration: none;
 }
 
-.modalContent{
-  padding: 16px;
-}
-
-/* .modalHeader {
-  padding: 24px;
-} */
-
 .modalNav {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
   list-style: none;
   justify-content: space-between;
   padding-bottom: 12px;
@@ -468,29 +446,41 @@ border-radius: 10px;
   
 }
 
+#close-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  top: 4%;
+  left: 88%;
+  right: 0;
+}
+
 .modalHeader h3 {
   font-size: 32px;
   font-weight: 700;
  
 }
+
+#canopy{
+ gap: 30px;
+}
+
 .canopy{
   display: flex;
   flex-direction: row;
-  gap: 30px;
-}
-.canopy p {
-  font-size: 13px;
-  font-weight: 600;
-
-}
-
-.canopy ul {
+  gap: 3px;
   font-size: 13px;
   font-weight: 600;
   color: #7A869A;
-  gap: 30px;
-  display: flex;
-  
+  font-family: 'Poppins', sans-serif;
+  padding-top: 0.3rem;
+  padding-bottom: 0.5rem;
+}
+
+.canopy .canopyLi1 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #344563;
+  list-style: none;
 }
 
 .modalImg {
@@ -527,7 +517,7 @@ hr {
 
 .modalFooter button{
   padding: 10px 15px 10px 15px;
-  margin: 15px;
+  
 }
 
 .seeBtn{
@@ -603,7 +593,7 @@ hr {
 
 @media screen and (min-width: 768px) {
   .Hamburger,
-  .end-Line {
+  .end-Line, hr, #modalContainers {
     display: none;
   }
 
@@ -770,6 +760,38 @@ hr {
     width: 60%;
     margin: 0;
     padding: 0;
+  }
+
+  .modalFooter{
+    display: flex;
+    flex-direction: row;
+    
+    /* align-items: flex-end; */
+  }
+
+  /* Modal */
+  .modalContainer{
+    overflow-y: scroll;
+  }
+
+.modalHeader {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  position: relative;
+  top: 1%;
+}
+
+  .canopy .canopyLi1 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #344563;
+    list-style: none;
+  }
+
+  .img-Div {
+    width: 100%;
+    padding: 20px;
   }
 
   .content {

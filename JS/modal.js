@@ -1,14 +1,4 @@
-const hamburger = document.querySelector('#openHam');
-const closeBtn = document.querySelector('#times');
-const pcard = document.getElementById('portfolio');
-const modal = document.getElementById('modalContainer');
-const title = document.getElementById('modalTitle');
-const image = document.getElementById('modal-Img');
-const longDes = document.getElementById('modalDes');
-const live = document.getElementById('seeLive');
-const source = document.getElementById('seeSource');
-
-
+// storing card section for the desktop part.
 const cards = [
     {
         mTitle: 'Tonic',
@@ -19,8 +9,8 @@ const cards = [
         shortDes:
             'A daily selection of privately personalized reads; no accounts or sign- ups required.',
         source: 'https://github.com/Luchy-B/Portfolio', 
-        languages: ['html', 'javascript', 'css'],
-        roles: ['Canopy', 'Back End Dev', 2015],
+        languages: ['html', 'css', 'javascript'],
+        roles: ['Canopy', 'Back End Dev', 2015],        
     },
     {
         mTitle: 'Multi-Post Stories',
@@ -31,7 +21,7 @@ const cards = [
         shortDes:
             'A daily selection of privately personalized reads; no accounts or sign- ups required.',
         source: 'https://github.com/Luchy-B/Portfolio', 
-        languages: ['html', 'javascript', 'css'],
+        languages: ['html', 'css', 'javascript'],
         roles: ['Canopy', 'Back End Dev', 2015],
     },
     {
@@ -43,7 +33,7 @@ const cards = [
         shortDes:
             'A daily selection of privately personalized reads; no accounts or sign- ups required.',
         source: 'https://github.com/Luchy-B/Portfolio', 
-        languages: ['html', 'javascript', 'css'],
+        languages: ['html', 'css', 'javascript'],
         roles: ['Canopy', 'Back End Dev', 2015],
     },
     {
@@ -55,63 +45,93 @@ const cards = [
         shortDes:
             'A daily selection of privately personalized reads; no accounts or sign- ups required.',
         source: 'https://github.com/Luchy-B/Portfolio', 
-        languages: ['html', 'javascript', 'css'],
+        languages: ['html', 'css', 'javascript'],
         roles: ['Canopy', 'Back End Dev', 2015],
     }
-]
-
-// Mobile Menu 
-function show() {
-    document.getElementById('cross').style.display = 'block';
-  }
+];
   
-  function hide() {
-    document.getElementById('cross').style.display = 'none';
-  }
+ 
+  // Class selections
+  const portfolio = document.querySelector('#portfolio');
   
-  hamburger.addEventListener('click', show);
-  closeBtn.addEventListener('click', hide);
+  // looping through the cards of the desktop to add cards dynamically
+  for (let i = 0; i < cards.length; i += 1) {
+    let lang = '';
+    cards[i].languages.forEach((card) => {
+      lang = `${lang}<li class="${card}">${card}</li>`;
+    });
+  
+    let tech = '';
+    cards[i].roles.forEach((techn) => {
+      tech = `${tech}<li class="${techn}">${techn}</li>`;
+    });
+  
+    portfolio.innerHTML += `
+    <div class="card">
+      <div class="img-Div">
+        <img src="${cards[i].image}" alt="Card Image" />
+      </div>
 
-// Modal
-
-cards.map((card, index) => pcard.innerHTML += `<div class="card">
-<div class="img-Div">
-  <img src="${card.image}" alt="Card Image"/>
-</div>
-<div class="content">
-<h2>${card.mTitle}</h2>
-
-<div class="content-List">
-${card.roles.map((role) => `<p class="canopy">${role} </p>
-<p><img src="images/fullstop.png" alt="Fullstop-icon" />${role}</p>`).join('')}
-</div>
-
-<p class="para">
-          ${card.shortDes}
+      <div class="content">
+        <h2>
+        ${cards[i].mTitle}
+        </h2>
+        <ul class="canopy">
+           ${tech}
+        </ul>
+        
+        <p class="para">
+        ${cards[i].shortDes}
         </p>
-
-        <ul>
-        ${card.languages.map((lang) => `<li>${lang}</li>`).join('')}
-      </ul>
-
-      <input onclick="open()" type="button" value="See Project" class="btn-1" />
-      
+        <ul class="langUl">
+        ${lang}
+        </ul>
+        <input type="button" value="See Project" class="btn-1 card-btn card-btn-${i}" />
       </div>
     </div>
-`)
-
-const open = (index) => {
-    title.innerHTML = cards[index].mTitle;
-    image.src = cards[index].image;
-    longDes.innerHTML = cards[index].longDes;
-    live.href = cards[index].live;
-    source.href = cards[index].source;
-    modal.style.display = 'block';
-  };
+  `;
+  }
   
-  const close = () => {
-    modal.style.display = 'none';  
-  };
+  // popup selections
+  const cardTitle = document.querySelector('#modalTitle');
+  const cardInfo = document.querySelector('#canopy');
+  const cardImg = document.querySelector('#modal-Img');
+  const cardText = document.querySelector('#modalDes');
+  const cardLang = document.querySelector('#modalLang');
+  const ModalCloseBtn = document.querySelector('#close-btn');
+  const modal = document.querySelector('#modalContainers');
+  const modalLive = document.querySelector('#seeLive');
+  const modalSource = document.querySelector('#seeSource');
   
-  open();
-  close();
+  
+  
+  
+  // popup for desktop
+  for (let i = 0; i < cards.length; i += 1) {
+    document.querySelector(`.card-btn-${i}`).addEventListener('click', () => {
+      modal.style.display = 'block';
+  
+      let lang = '';
+      cards[i].languages.forEach((cards) => {
+        lang = `${lang}<li class="${cards}">${cards}</li>`;
+      });
+  
+      let tech = '';
+      cards[i].roles.forEach((techn) => {
+        tech = `${tech}<li class="${techn}">${techn}</li>`;
+      });
+  
+      cardTitle.innerHTML = `${cards[i].mTitle}`;
+      cardInfo.innerHTML = `${tech}`;
+      cardLang.innerHTML = `${lang}`;
+      cardText.innerHTML = `${cards[i].longDes}`;
+      cardImg.innerHTML = `<img src="${cards[i].image}" alt="Card Image" />`;     
+      modalLive.setAttribute('href', cards[i].live);
+      modalSource.setAttribute('href', cards[i].source);
+    });
+  }
+  
+  // close button event listener
+  ModalCloseBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
