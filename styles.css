@@ -446,6 +446,17 @@ backdrop-filter: blur(6px);
   
 }
 
+.modalHeader {
+  padding: 10px 24px; 
+  background-color: #fff;
+  width: 90%;
+  height: 96vh;
+  margin: 0 auto;
+  position: relative;
+  top: 2%;
+  border-radius: 1rem;
+}
+
 #close-btn {
   font-size: 2rem;
   cursor: pointer;
@@ -471,26 +482,34 @@ backdrop-filter: blur(6px);
   font-weight: 600;
   color: #7A869A;
   font-family: 'Poppins', sans-serif;
-  padding-top: 0.3rem;
+  /* padding-top: 0.3rem; */
   padding-bottom: 0.5rem;
+  /* list-style-type: disc; */
 }
 
-.canopy .canopyLi1 {
+.canopy li:nth-child(1) {
   font-size: 13px;
   font-weight: 600;
   color: #344563;
-  list-style: none;
+  list-style-type: none;
 }
 
 .modalImg {
-  width: 100%;
-  padding: 20px 0px 20px 0px;
+ 
+  height: 50%;
+  padding-left: 37px;
+}
+
+.modalImg img {
+  transform: scaleX(1.2);
+  width: 70vw;
 }
 
 .modalFooter p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  padding-top: 0.5rem;
   color: #344563;
 }
 
@@ -499,7 +518,7 @@ backdrop-filter: blur(6px);
   list-style: none;
   gap: 8px;
   color: #6070ff;
-  margin: 24px 24px 24px 0;
+  margin: 10px 24px 15px 0;
 }
 
 .modalFooter li {
@@ -510,8 +529,14 @@ backdrop-filter: blur(6px);
 }
 
 hr {
-  
-  margin-bottom: 24px;
+  margin-bottom: 10px;
+}
+
+.modal-button {
+  display: flex;
+justify-content: space-evenly;
+width: 80%;
+gap: 1rem;
 }
 
 .modalFooter button{
@@ -519,18 +544,19 @@ hr {
   
 }
 
-.seeBtn{
+/* .seeBtn{
   padding: 200px;
-  
-}
+} */
 
-.seeBtn1, .seeBtn2 {
+.seeBtn1, 
+.seeBtn2 {
   border: 1px solid #6070ff;
   border-radius: 10px;
   padding: 15px;
   font-size: 15px;
   color: #396DF2;
   background-color: #ffffff;
+  width: 100%;
 }
 
 .seeBtn2{
@@ -768,32 +794,52 @@ hr {
 
   /* Modal */
   .modalContainer{
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
   }
 
 .modalHeader {
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-  position: relative;
-  top: 1%;
+  height: 90vh;
+  top: 5%;
 }
 
   .canopy .canopyLi1 {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     color: #344563;
     list-style: none;
   }
 
-  .img-Div {
+  .modalImg {
     width: 100%;
-    padding: 20px;
+    height: 60vh;
+    padding-left: 23.5rem;
+    /* padding: 20px; */
+  }
+
+  .modalImg img {
+    width: 60%;
+    transform: scaleX(2.3);
   }
 
   .content {
-    width: 50%;
+    width: 70%;
   }
+
+  .modalFooter {
+    display: flex;
+  }
+
+  .modalFooter p {
+    width: 70%;
+  }
+
+.modal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}  
+
 }
 
 @keyframes rotation {
