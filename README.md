@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio</b></h3>
@@ -158,7 +157,6 @@ I would like to thank Microverse for Guiding me through this project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
 
 <!-- LICENSE -->
 
