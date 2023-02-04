@@ -841,12 +841,15 @@ hr {
     padding-top: 44px;
     position: fixed;
     width: 100%;
+    overflow: hidden;
   }
 
   .modalHeader {
     top: 0;
     padding: 24px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    border-radius: 40px;
+    border-radius: 45px;
   }
 
   .canopy .canopyLi1 {
