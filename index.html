@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
+<body class="body" >
   <header class="header">
     <div class="logo">
       <a href="#">
@@ -68,120 +68,6 @@
 
   <!-- WORK SECTION -->
   <section id="portfolio">
-    <!-- Card 1 -->
-    <div class="card">
-      <div class="img-Div">
-        <img src="images/CardImg-1.png" alt="Card Image"/>
-      </div>
-
-      <div class="content">
-        <h2>Tonic</h2>
-        <div class="content-List">
-          <p class="canopy">CANOPY</p>
-          <p><img src="images/fullstop.png" alt="Fullstop-icon" />Back End Dev</p>
-          <p><img src="images/fullstop.png" alt="Fullstop-icon" />2015</p>
-        </div>
-        <p class="para">
-          A daily selection of privately
-          personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        
-        <ul>
-          <li>html</li>
-          <li>css</li>
-          <li>Javascript</li>
-        </ul>
-        <input type="button" value="See Project" class="btn-1" />
-      </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="card">
-      <div class="img-Div">
-        <img src="images/CardImg-2.png" alt="Card Image" />
-      </div>
-
-      <div class="content">
-        <h2>
-          Multi-Post
-          Stories
-        </h2>
-        <div class="content-List">
-          <p class="canopy">CANOPY</p>
-          <p><img src="images/fullstop.png" alt="Fullstop-icon" />Back End Dev</p>
-          <p><img src="images/fullstop.png" alt="Fullstop-icon" />2015</p>
-        </div>
-        <p class="para">
-          A daily selection of privately
-          personalized reads; no accounts or
-          sign-ups required.
-        </p>
-
-        <ul>
-          <li>html</li>
-          <li>css</li>
-          <li>Javascript</li>
-        </ul>
-        <input type="button" value="See Project" class="btn-1" />
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="card">
-      <div class="img-Div">
-        <img src="images/CardImg-3.png" alt="Card Image" />
-      </div>
-
-      <div class="content">
-        <h2>Tonic</h2>
-        <div class="content-List">
-          <p class="canopy">CANOPY</p>
-          <p><img src="images/fullstop.png" alt="Fullstop-icon" />Back End Dev</p>
-          <p><img src="images/fullstop.png" alt="Fullstop-icon" />2015</p>
-        </div>
-        <p class="para">
-          A daily selection of privately
-          personalized reads; no accounts or
-          sign-ups required.
-        </p>
-
-        <ul>
-          <li>html</li>
-          <li>css</li>
-          <li>Javascript</li>
-        </ul>
-        <input type="button" value="See Project" class="btn-1" />
-      </div>
-    </div>
-
-    <!-- Card 4 -->
-    <div class="card">
-      <div class="img-Div">
-        <img src="images/CardImg-4.png" alt="Card Image" />
-      </div>
-
-      <div class="content">
-        <h2>Multi-Post Stories</h2>
-        <div class="content-List">
-          <p class="canopy">CANOPY</p>
-          <p><img src="images/fullstop.png" alt="Fullstop-icon" />Back End Dev</p>
-          <p><img src="images/fullstop.png" alt="Fullstop-icon" />2015</p>
-        </div>
-        <p class="para">
-          A daily selection of privately
-          personalized reads; no accounts or
-          sign-ups required.
-        </p>
-          
-        <ul>
-          <li>html</li>
-          <li>css</li>
-          <li>Javascript</li>
-        </ul>
-        <input type="button" value="See Project" class="btn-1" />
-      </div>
-    </div>
   </section>
 
   <!-- About Me Section -->
@@ -220,7 +106,6 @@
             </ul>
                 <input type="button" value="Get my resume" class="btn-1" />
         </div>
-
         <div class="languages">
             <ul>
                 <li class="skills">
@@ -297,8 +182,53 @@
         </section>
     </section>
 
-    <script src="./JS/"></script>
-    <script src="./JS/"></script>
+    <!-- Modal -->
+    <section class="modalContainer" id="modalContainers">
+      <div class="modalHeader">
+          <div class="modalNav">
+            <h3 class="card-title" id="modalTitle"></h3>
+            <div class="modalNavLi" id="close-btn">&times;
+
+            </div>
+          </div>
+          <ul class="canopy" id="canopy">
+            <li class="canopyLi1">CANOPY</li>
+          </ul>
+          <div class=" modalImg" id="modal-Img">
+
+          </div>        
+        <div class="modalFooter">
+          <p id="modalDes" >
+          </p>
+        <div class="modal-info">
+          <ul id="modalLang" >
+          </ul>
+
+         <hr>
+          <div class="modal-button">
+            <a id="seeLive" href="#seeLive">
+              <button type="button" class="seeBtn1">
+                See live
+                <span><img src="./images/seeLive-Img.png" alt="icon" /></span>
+              </button>
+            </a>
+
+            <a id="seeSource" href="#seeSource">
+              <button type="button" class="seeBtn2">
+                See Source
+                <span><img src="./images/seeSource-Img.png" alt="icon" /></span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <script src="./JS/scripts.js"></script>
+    <script src="./JS/modal.js"></script>
+
 </body>
 
 
