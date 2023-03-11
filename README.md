@@ -76,7 +76,7 @@ Fullstack developer: includes both front end and Backend developer.
 
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### 🚀 Live Demo <a name="live-demo">https://luchy-b.github.io/Portfolio/</a>
 
 
 - [Live Demo Link](https://luchy-b.github.io/) 
