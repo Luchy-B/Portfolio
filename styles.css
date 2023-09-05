@@ -146,7 +146,7 @@ body {
 }
 
 .img-Div:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .content {
@@ -194,6 +194,7 @@ body {
   line-height: 24px;
   color: #396df2;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn-1:hover {
