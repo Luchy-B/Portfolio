@@ -12,50 +12,50 @@ const modalSource = document.querySelector('#seeSource');
 // storing card section for the desktop part.
 const cards = [
   {
-    mTitle: 'Tonic',
-    image: 'images/CardImg-1.png',
+    mTitle: 'Budget App',
+    image: 'images/dazz.png',
     longDes:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    live: 'https://luchy-b.github.io/',
+            'Budget App allows a user to add categories of things and transactions made',
+    live: 'https://dazzling.onrender.com/',
     shortDes:
-            'A daily selection of privately personalized reads; no accounts or sign- ups required.',
-    source: 'https://github.com/Luchy-B/Portfolio',
+            'Budget App allows a user to add categories of things and transactions made.',
+    source: 'https://github.com/Luchy-B/budget',
     languages: ['html', 'css', 'javascript'],
     roles: ['Canopy', 'Back End Dev', 2015],
   },
   {
-    mTitle: 'Multi-Post Stories',
-    image: 'images/CardImg-2.png',
+    mTitle: 'Car Collection',
+    image: 'images/car-collection.png',
     longDes:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+            'Car_Collection application is a website application that allows users to add car brand, make reservation of any choice of car, delete car from collection of car and users can see a detail of any car.',
     live: 'https://luchy-b.github.io/',
     shortDes:
-            'A daily selection of privately personalized reads; no accounts or sign- ups required.',
-    source: 'https://github.com/Luchy-B/Portfolio',
-    languages: ['html', 'css', 'javascript'],
+            'Car_Collection application is a website application that allows users to add, delete and reserve car.',
+    source: 'https://github.com/Kaghenimbale/car_collection',
+    languages: ['html', 'css', 'javascript', 'rails'],
     roles: ['Canopy', 'Back End Dev', 2015],
   },
   {
-    mTitle: 'Tonic',
-    image: 'images/CardImg-3.png',
+    mTitle: 'Covid',
+    image: 'images/covid.png',
     longDes:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    live: 'https://luchy-b.github.io/',
+            'Covid is a App that provides reports of Covid-19. It displays data of different countries and histrories of analysis made.',
+    live: 'https://covid-19-rj49.onrender.com/',
     shortDes:
-            'A daily selection of privately personalized reads; no accounts or sign- ups required.',
-    source: 'https://github.com/Luchy-B/Portfolio',
-    languages: ['html', 'css', 'javascript'],
+            'Covid is a App that provides reports of Covid-19. It displays data of different countries and histrories of analysis made.',
+    source: 'https://github.com/Luchy-B/covid',
+    languages: ['html', 'css', 'javascript', 'react'],
     roles: ['Canopy', 'Back End Dev', 2015],
   },
   {
-    mTitle: 'Tonic',
-    image: 'images/CardImg-1.png',
+    mTitle: 'Awesome Book',
+    image: 'images/awesome.png',
     longDes:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    live: 'https://luchy-b.github.io/',
+            'The Awesome Book app is a simple web application that allows users to keep track of books they have read or want to read. Users can create, add or edit a book.',
+    live: 'https://luchy-b.github.io/Project-AwesomeBook-Module/',
     shortDes:
-            'A daily selection of privately personalized reads; no accounts or sign- ups required.',
-    source: 'https://github.com/Luchy-B/Portfolio',
+            'The Awesome Book app is a simple web application that allows users to keep track of books they have read or want to read. Users can create, add or edit a book.',
+    source: 'https://github.com/Luchy-B/Project-AwesomeBook-Module',
     languages: ['html', 'css', 'javascript'],
     roles: ['Canopy', 'Back End Dev', 2015],
   },
