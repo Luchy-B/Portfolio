@@ -24,14 +24,14 @@ const cards = [
     roles: ['Canopy', 'Back End Dev', 2015],
   },
   {
-    mTitle: 'Car Collection',
-    image: 'images/car-collection.png',
+    mTitle: 'Math-Magicians',
+    image: 'images/math.png',
     longDes:
-            'Car_Collection application is a website application that allows users to add car brand, make reservation of any choice of car, delete car from collection of car and users can see a detail of any car.',
-    live: 'https://luchy-b.github.io/',
+            'Math-Magicians is a single page application that solves basic maths operations and displays random maths quotes.',
+    live: 'https://mathmagicians-blbn.onrender.com/',
     shortDes:
-            'Car_Collection application is a website application that allows users to add, delete and reserve car.',
-    source: 'https://github.com/Kaghenimbale/car_collection',
+            'Math-Magicians is a single page application that solves basic maths operations and displays random maths quotes.',
+    source: 'https://github.com/Luchy-B/math-magicians',
     languages: ['html', 'css', 'javascript', 'rails'],
     roles: ['Canopy', 'Back End Dev', 2015],
   },
