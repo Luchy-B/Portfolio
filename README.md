@@ -28,7 +28,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Portfolio - Lucas Erkana 🤘 <a name="about-project"></a>
+# Portfolio - Okpara Blessing Oluchi 🤘 <a name="about-project"></a>
 
 This Personal Portfolio showcases my skills and experience using React JS, HTML, and CSS. It includes projects I have worked on, my education, and relevant work experience. It provides a dynamic and engaging user experience for potential employers and clients.
 
