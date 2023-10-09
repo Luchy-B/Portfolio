@@ -25,7 +25,7 @@ const cards = [
   },
   {
     mTitle: 'Math-Magicians',
-    image: 'images/magician.png',
+    image: 'images/magician2.png',
     longDes:
             'Math-Magicians is a single page application that solves basic maths operations and displays random maths quotes.',
     live: 'https://mathmagicians-blbn.onrender.com/',
