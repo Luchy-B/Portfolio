@@ -1,0 +1,128 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/Blessing_Portfolio.gif",
+            "title": "Dev Portfolio",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Luchy-B/Portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://blessingoluchi.vercel.app/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "images/projects/dazzling.png",
+            "title": "Dazzling",
+            "bodyText": "- Budget App allows a user to add categories of things and transactions made.\n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Luchy-B/budget"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://dazzling.onrender.com/"
+                }
+            ],
+            "tags" : [
+                "Ruby",
+                "HTML",
+                "CSS",
+                "Batchfile",
+                "Javascript",
+                "Shell"
+            ]
+        },
+        {
+            "image" : "images/projects/magician.png",
+            "title": "Math Magicians",
+            "bodyText": "- Math-Magicians is a single page application that solves basic maths operations and displays random maths quotes.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Luchy-B/math-magicians"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://mathmagicians-blbn.onrender.com/"
+                }
+            ],
+            "tags" : [
+                "Reactjs",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "Covid",
+            "image" : "images/projects/covid.png",
+            "bodyText": "- Covid is a App that provides reports of Covid-19. It displays data of different countries and histrories of analysis made.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Luchy-B/covid"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://covid-19-rj49.onrender.com/"
+                }
+            ],
+            "tags" : [
+                "Reactjs",
+                "Redux",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "Awesome Books",
+            "image" : "images/projects/awesome.png",
+            "bodyText": "- The Awesome Book app is a simple web application that allows users to keep track of books they have read or want to read. Users can create, add or edit a book.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Luchy-B/Project-AwesomeBook-Module"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://luchy-b.github.io/Project-AwesomeBook-Module/"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "To-Do-List",
+            "image" : "images/projects/todo.png",
+            "bodyText": "- To-Do-List is a project that keeps track of activities. It experiments how to work with objects in javascript.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Luchy-B/react-todo"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://luchy-b.github.io/My-To-Do-List/dist/"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ]
+        }
+    ]
+}
