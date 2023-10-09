@@ -39,7 +39,7 @@ This Personal Portfolio showcases my skills and experience using React JS, HTML,
 
 ## Live Demo
 
-To view the demo: **[click here](https://https://blessingoluchi.vercel.app/)**
+To view the demo: **[click here](https://blessingoluchi.vercel.app/)**
 
 ## 🛠 Built With <a name="built-with"></a>
 
