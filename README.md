@@ -34,6 +34,7 @@ This Personal Portfolio showcases my skills and experience using React JS, HTML,
 
 ### App Screenshot
 
+![Blessing2](https://github.com/Luchy-B/Portfolio/assets/41428579/45dbafef-99b6-47c4-8a4d-445fedf42e44)
 
 
 ## Live Demo
