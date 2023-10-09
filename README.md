@@ -8,7 +8,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [ Portfolio - Lucas Erkana 🤘](#-about-project-)
+- [ Portfolio - Okpara Blessing Oluchi 🤘](#-about-project-)
 	- [Live Demo](#live-demo)
 	- [🛠 Built With ](#-built-with-)
 		- [Tech Stack ](#tech-stack-)
@@ -140,7 +140,7 @@ npm install --force
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Lucask-Erkana/Portfolio/issues).
+Feel free to check the [issues page](https://github.com/Luchy-B/Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
