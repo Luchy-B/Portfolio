@@ -39,7 +39,7 @@ This Personal Portfolio showcases my skills and experience using React JS, HTML,
 
 ## Live Demo
 
-To view the demo: **[click here](https://blessingoluchi.vercel.app/)**
+To view the demo: **[click here](https://luchy-b.github.io/Portfolio/)**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -157,8 +157,6 @@ If you like this project, please leave a ⭐️
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse for providing the reading materials that aided us to during the project development.
-- I would like to thank [Lucas Erkana](https://github.com/Lucas-Erkana) for helping me with the designing of this portfolio.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
