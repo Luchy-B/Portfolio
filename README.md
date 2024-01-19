@@ -78,6 +78,7 @@ To view the demo: **[click here](https://luchy-b.github.io/Portfolio/)**
 
 This app is built with React and Redux.
 
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
