@@ -69,7 +69,6 @@ Fullstack developer: includes both front end and Backend developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Live Demo
 
 To view the demo: **[click here](https://luchy-b.github.io/Portfolio/)**
