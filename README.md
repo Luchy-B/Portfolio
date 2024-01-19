@@ -1,44 +1,39 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <br/>
+<h1 align='center'> Portfolio - Okpara Blessing Oluchi🤘 </h1>
 
-  <h3><b>Portfolio</b></h3>
 
-</div>
-
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [ Portfolio - Okpara Blessing Oluchi 🤘](#-about-project-)
+	- [Live Demo](#live-demo)
+	- [🛠 Built With ](#-built-with-)
+		- [Tech Stack ](#tech-stack-)
+		- [Key Features ](#key-features-)
+	- [💻 Getting Started ](#-getting-started-)
+	- [To get a local copy up and running, follow these steps.](#to-get-a-local-copy-up-and-running-follow-these-steps)
+		- [Prerequisites](#prerequisites)
+		- [Setup](#setup)
+		- [Install](#install)
+	- [👥 Authors ](#-authors-)
+	- [🔭 Future Features ](#-future-features-)
+	- [🤝 Contributing ](#-contributing-)
+	- [⭐️ Show your support ](#️-show-your-support-)
+	- [🙏 Acknowledgments ](#-acknowledgments-)
+	- [🙏 FAQ ](#-faq-)
+	- [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# Portfolio - Okpara Blessing Oluchi 🤘 <a name="about-project"></a>
+
+Portfolio is my portfolio project. It contains a brief history about me and my profession as a web developer. It also contains information about my expereinces and languages I can handle should opportunity for employment presents itself. 
 
 
-# 📖 [Portfolio] <a name="about-project"></a>
-
-**Portfolio** is my portfolio project. It contains a brief history about me and my profession as a web developer. It also contains information about my expereinces and languages I can handle should opportunity for employment presents itself.
-
-## 🛠 Built With html and css<a name="built-with"></a>
-HTML
-CSS
-Javascript
+## 🛠 Built With html, css and JavaScript<a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -74,6 +69,35 @@ Fullstack developer: includes both front end and Backend developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Live Demo
+
+To view the demo: **[click here](https://luchy-b.github.io/Portfolio/)**
+
+## 🛠 Built With <a name="built-with"></a>
+
+This app is built with React and Redux.
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+⚡️ Modern UI Design + Reveal Animations\
+⚡️ Made with React\
+⚡️ Fully Responsive\
+⚡️ Easily Customizable\
+⚡️ Well organized documentation
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### 🚀 Live Demo <a name="live-demo">https://luchy-b.github.io/Portfolio/</a>
 
 
@@ -85,37 +109,54 @@ Fullstack developer: includes both front end and Backend developer.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+## To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- install npm, node
-- Install code editor
+- Mac or PC
+- Use npm as package manager
+- Understanding of React
+- A web browser like Google Chrome.
+- A code editor like Visual Studio Code with Git and Node.js.
 
 ### Setup
 
-Clone this repository to your desired folder:
+- Clone this repository to your desired folder:
 
-git clone git@github.com:Luchy-B/Portfolio.git
+```sh
+ git clone https://github.com/Luchy-B/Portfolio.git
+```
 
-### Usage
+- Navigate into the cloned folder
 
-To run the project, execute the following command:
+```sh
+ cd portfolio
 
-  live server
+```
 
-### Run tests
+### Install
 
-To run tests, run the following command:
+- Install this project with:
 
-  - Open a Live Serve on your Code Editor to view this project.
+```sh
+npm install --force
+```
 
+- Start the server
+
+```sh
+ npm start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Okpara Blessing Oluchi**
 
 - GitHub: [@githubhandle](https://github.com/Luchy-B)
 - Twitter: [@twitterhandle](https://twitter.com/oluchi)
@@ -123,45 +164,52 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **About Me page**
-- [ ] **Contact Form**
-- [ ] **Project links**
+- [ ] **Add more projects**
+- [ ] **Add contact form**
+- [ ] **Some UX improvements: include transitions and/or animations, etc.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](https://github.com/Luchy-B/Portfolio/issues).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project, kindly show your support by leaving a comment on how to improve.
+If you like this project, please leave a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- I would like to thank Microverse for providing the reading materials that aided me during the project development.
 
-I would like to thank Microverse for Guiding me through this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
