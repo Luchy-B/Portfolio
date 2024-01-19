@@ -1,58 +1,30 @@
 {
-  "name": "portfolio-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "bootstrap": "^5.1.1",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-bootstrap": "^2.0.0-rc.0",
-    "react-chrono": "^1.12.1",
-    "react-dark-mode-toggle": "^0.2.0",
-    "react-dom": "^17.0.2",
-    "react-markdown": "^7.0.1",
-    "react-reveal": "^1.2.2",
-    "react-router": "^5.2.1",
-    "react-router-dom": "^5.3.0",
-    "react-scripts": "^5.0.1",
-    "react-social-icons": "^5.6.1",
-    "styled-components": "^5.3.1",
-    "typewriter-effect": "^2.18.2",
-    "use-dark-mode": "^2.3.1",
-    "vertical-timeline-component-for-react": "^1.0.7",
-    "web-vitals": "^1.0.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luchy-B/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luchy-B/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Luchy-B/Portfolio#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "react-error-overlay": "6.0.9"
-  },
-  "resolutions": {
-    "react-error-overlay": "6.0.9"
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   }
 }
