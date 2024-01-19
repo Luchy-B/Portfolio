@@ -13,7 +13,7 @@ const modalSource = document.querySelector('#seeSource');
 const cards = [
   {
     mTitle: 'Budget App',
-    image: './images/dazz.png',
+    image: '../images/dazz.png',
     longDes:
             'Budget App allows a user to add categories of things and transactions made',
     live: 'https://dazzling.onrender.com/',
@@ -25,7 +25,7 @@ const cards = [
   },
   {
     mTitle: 'Car Collection',
-    image: './images/car-collection.png',
+    image: '../images/car-collection.png',
     longDes:
             'Car_Collection application is a website application that allows users to add, delete and reserve car.',
     live: 'https://mathmagicians-blbn.onrender.com/',
@@ -37,7 +37,7 @@ const cards = [
   },
   {
     mTitle: 'Covid',
-    image: './images/covid.png',
+    image: '../images/covid.png',
     longDes:
             'Covid is a App that provides reports of Covid-19. It displays data of different countries and histrories of analysis made.',
     live: 'https://covid-19-rj49.onrender.com/',
@@ -49,7 +49,7 @@ const cards = [
   },
   {
     mTitle: 'Awesome Book',
-    image: './images/awesome.png',
+    image: '../images/awesome.png',
     longDes:
             'The Awesome Book app is a simple web application that allows users to keep track of books they have read or want to read. Users can create, add or edit a book.',
     live: 'https://luchy-b.github.io/Project-AwesomeBook-Module/',
